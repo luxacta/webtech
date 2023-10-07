@@ -17,10 +17,10 @@
 
   //SMTP Credentials
   $contact->smtp = array(
-    'host' => 'smtp.gmail.com',
-    'username' => 'webbertest0@gmail.com',
-    'password' => 'webber0@',
-    'port' => '587'
+    'host' => 'sandbox.smtp.mailtrap.io',
+    'username' => 'd283147aa41c15',
+    'password' => '6a99ab3f0abfa6',
+    'port' => '2525'
   );
 
   $contact->add_message( $_POST['name'], 'From');
